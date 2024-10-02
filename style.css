@@ -70,9 +70,9 @@ body {
 .image-container {
     position: absolute;
     width: 50%;
-    right: 10%;
-    bottom: 0;
-    height: 100%;
+    right: 80px;
+    top: 90px;
+    height: 60%;
     mix-blend-mode: multiply;
 }
 
@@ -269,8 +269,8 @@ body {
 }
 
 .button-1 {
-    background-color: #007BFF; 
-    color: white; 
+    background-color: #f1c50e; 
+    color: black; 
     border: none; 
     border-radius: 5px; 
     padding: 15px 30px; 
@@ -279,7 +279,7 @@ body {
 }
 
 .button-1:hover {
-    background-color: #0056b3; 
+    background-color: white; 
     transform: scale(1.05);
 }
 
@@ -289,7 +289,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 65vh;
-    background-color: #020122;
+    background-color: #03071e;
     color: white;
 }
 
@@ -332,7 +332,218 @@ body {
     text-align: right;
 }
 
+.img-nina{
+    filter: contrast(1.2) brightness(1.1);
+    opacity: 0.43;
+    mix-blend-mode: normal;
+}
+
 .image-content img {
     max-width: 100%;
     height: auto;
+}
+
+.page5 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.left-5 {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.left-5 h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.left-5 p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.imagen img {
+    background-size: 50px 5;
+}
+
+.page-6 {
+    width: 100%;
+    height: 50vh; 
+}
+
+.logo-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 1200px;
+    width: 100%;
+    height: 100%; 
+
+}
+
+.information {
+    text-align: center; 
+    margin-bottom: auto;
+}
+
+.brands {
+    display: flex; 
+    justify-content: center; 
+    margin-top: auto; 
+    text-align: center;
+    opacity: 0.35;
+    mix-blend-mode: multiply;
+}
+
+.brands img {
+    height: 160px; 
+    border-radius: 50px; 
+    margin: 0 10px; 
+}
+
+.container-7 {
+    width: 100%;
+    color: white;
+    height: 100vh;
+    background-color: black;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #f1c50e;
+}
+
+.contact-header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+.contact-header h1 {
+    color: #FFD700;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    width: 40%;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-methods .email, .contact-methods .phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.contact-methods img {
+    margin-right: 10px;
+}
+
+.contact-methods a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.form-fields {
+    width: 55%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: #333;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+}
+
+.terms {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.terms a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+button {
+    padding: 15px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; 
+    color: #ccc;
+    height: 25vh;
+}
+
+footer a {
+    color: #ccc; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
