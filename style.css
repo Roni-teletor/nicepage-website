@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #82ABA1;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.header .home {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.header .home:hover {
+    color: #888; 
+    text-decoration: none; 
+}
+
+.content {
+    text-align: left;
+    width: 50%;
+    color: #333;
+    margin-right: 300px;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 400; 
+    color: #333;
+    text-transform: uppercase; 
+}
+
+.content p {
+    font-size: 48px;
+    font-weight: 700;  
+    color: #333;
+    text-transform: uppercase; 
+}
+
+.image-container {
+    position: absolute;
+    width: 50%;
+    right: 10%;
+    bottom: 0;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.image-container img {
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.page2 {
+    height: 115vh;
+    padding: 50px;
+    background-color: #DBE4EE;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page2 p {
+    font-size: 13px;
+}
+.services {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.service-item-1 {
+    width: 33.33%; 
+    height: 300px; 
+    background-image: url('https://www.miles-nelson.com/wp-content/uploads/2023/07/721SS1001.jpg.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; 
+    color: white; 
+    text-align: center; 
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.service-item-2 {
+    width: 33.33%; 
+    height: 300px; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf2nxUQ2lcLHqjQkRJWexSqThgqVpbsH9FxuUjjSfLW2oJzPJ-rI16IC8yfkJ5TD7pGmA&usqp=CAU'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; 
+    color: black; 
+    text-align: center; 
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.service-item-3 {
+    width: 33.33%; 
+    height: 300px; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0v-QjlSMMyyNOwK46mUTjIcSREovqKkEkzwUaVJ6x8OvS2kjjyP8MiQjH9P2vUBUcBU&usqp=CAU'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; 
+    color: black; 
+    text-align: center; 
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-size: 130px;
+    background-repeat: no-repeat;
+}
+.service-item-4 {
+    width: 33.33%; 
+    height: 300px; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1uOq91Mo1x_Vgb-5Fjau4e7sPQHoFb8GWich2j4U98GEJNVvzjl4zW_CpU0OJ0FyvqA4&usqp=CAU'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; 
+    color: black; 
+    text-align: center; 
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.service-item-5 {
+    width: 33.33%; 
+    height: 300px; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJVyuUxgLSKwH_D8rpHsDr98AZFmROmPGCgzsyhxiUn0wNWo4_peNXiLKPp7Olcz3lzw&usqp=CAU'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; 
+    color: black; 
+    text-align: center; 
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.service-item-6 {
+    width: 33.33%; 
+    height: 300px; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEgA9gjMYDu7or5riH61vuJ-3AHf6xYZrZI_-AnGLiw5LJPkxdVv8Ms3D8pNNnj7wj9Y&usqp=CAU'); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px; 
+    color: black; 
+    text-align: center; 
+    overflow: hidden; 
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+
+
+.service-item-1 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.service-item-1 p {
+    font-size: 1rem;
+    color: black;
+}
+
+.page3 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;            
+    justify-content: space-between;  
+    align-items: center;       
+    width: 100%;
+    height: 75vh;
+    background-color: #d3d3d3;
+
+}
+
+.left, .right {
+    width: 50%;   
+}
+
+.left {
+    text-align: center;
+}
+
+
+.description h1 {
+    color: #f1c50e;
+}
+
+.description h3 {
+    font-size: 19px;
+}
+
+.description p {
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: pre-wrap;
+    
+}
+
+.button-1 {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.button-1:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+}
+
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-color: #020122;
+    color: white;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.text-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-content .role {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.text-content .description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.image-content {
+    flex: 1;
+    text-align: right;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
